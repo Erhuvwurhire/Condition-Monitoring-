@@ -93,24 +93,26 @@ condition-monitoring-ai/
 git clone https://github.com/yourusername/condition-monitoring-ai.git
 cd condition-monitoring-ai
 
-# Create a virtual environment
+## Create a virtual environment
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
-
 
 cd app
 streamlit run dashboard.py
 
-🧪 Example Results
+---
+
+## 🧪 Example Results
+
 Model	Accuracy	Precision	F1-score
 RandomForest	91.2%	90.4%	90.8%
 LSTM Autoencoder	—	—	AUC-ROC: 0.94
 
+ ## 📚 References
 
-📚 References
 Case Western Reserve Bearing Data Center
 
 NASA CMAPSS Turbofan Engine Dataset
@@ -119,7 +121,8 @@ ISO 10816 Machine Vibration Standards
 
 "A Review of Deep Learning Techniques for Condition Monitoring" – IEEE
 
-📈 Future Improvements
+ ##📈 Future Improvements
+
 Add support for streaming data via MQTT or Kafka
 
 Deploy model via REST API with FastAPI or Flask

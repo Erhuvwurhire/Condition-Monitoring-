@@ -105,13 +105,14 @@ streamlit run dashboard.py
 
 ---
 
-## 🧪 Example Results
+
+🧪 Example Results
 
 Model	Accuracy	Precision	F1-score
 RandomForest	91.2%	90.4%	90.8%
 LSTM Autoencoder	—	—	AUC-ROC: 0.94
 
- ## 📚 References
+ 📚 References
 
 Case Western Reserve Bearing Data Center
 
@@ -121,7 +122,7 @@ ISO 10816 Machine Vibration Standards
 
 "A Review of Deep Learning Techniques for Condition Monitoring" – IEEE
 
- ##📈 Future Improvements
+ 📈 Future Improvements
 
 Add support for streaming data via MQTT or Kafka
 

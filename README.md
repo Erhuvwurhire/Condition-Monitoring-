@@ -52,20 +52,7 @@ Using open-source datasets and real-world engineering principles, the system dem
 ---
 
 ## 🗃 Project Structure
-condition-monitoring-ai/
-├── data/ # Raw and preprocessed sensor data
-├── notebooks/ # EDA and modeling notebooks
-├── src/ # Source code (training, feature extraction)
-│ ├── preprocessing.py
-│ ├── train_model.py
-│ ├── predict.py
-│ └── utils.py
-├── app/ # Streamlit dashboard
-│ └── dashboard.py
-├── Dockerfile # Container spec
-├── requirements.txt
-├── README.md
-└── LICENSE
+<img width="405" height="300" alt="Screenshot 2025-08-01 at 06 03 59" src="https://github.com/user-attachments/assets/bffcbaa0-13b3-43c4-9d9e-ad98603028f3" />
 
 
 ---
